@@ -42,7 +42,6 @@ export function* taskModificationSaga() {
                 name: task.name
             }
         });
-        console.info("Got reponse MODIF, ", res);
     }
 }
 
